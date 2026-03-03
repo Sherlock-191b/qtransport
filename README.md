@@ -1,2 +1,2 @@
 # qtransport
-A web-based, statistically rigorous analysis tool for DC magnetotransport experiments including two-band transport, weak (anti-)localization (HLN), and quantum oscillations (SdH).
+qtransport is a lightweight, experiment-aware analysis platform for single-temperature DC magnetotransport data. It provides physically grounded model fitting (Drude two-band, HLN weak localization, Lifshitz–Kosevich quantum oscillations), automated unit standardization, statistical diagnostics, and publication-ready reporting — all through a clean web interface requiring no programming from the user.
