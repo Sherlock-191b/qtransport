@@ -103,13 +103,13 @@ In many materials both electrons and holes contribute to transport.
 
 The conductivity tensor is given by:
 
-\[
-\sigma_{xx} = e \sum_i \frac{n_i \mu_i}{1 + (\mu_i B)^2}
-\]
+<p align="center">
+  $\sigma_{xx} = e \sum_i \frac{n_i \mu_i}{1 + (\mu_i B)^2}$
+</p>
 
-\[
-\sigma_{xy} = e \sum_i \frac{n_i \mu_i^2 B}{1 + (\mu_i B)^2}
-\]
+<p align="center">
+  $\sigma_{xy} = e \sum_i \frac{n_i \mu_i^2 B}{1 + (\mu_i B)^2}$
+</p>
 
 The resistivity tensor is obtained by matrix inversion:
 
@@ -128,10 +128,10 @@ Quantum interference in diffusive systems produces a characteristic low-field ma
 
 The Hikami–Larkin–Nagaoka formula is
 
-\[
-\Delta\sigma(B) = -\alpha \, \frac{e^2}{2\pi^2 \hbar} 
-\left[ \psi\!\left(\tfrac{1}{2} + \tfrac{B_\phi}{B}\right) - \ln\!\left(\tfrac{B_\phi}{B}\right) \right]
-\]
+<p align="center">
+  $\Delta\sigma(B) = -\alpha \, \frac{e^2}{2\pi^2 \hbar} 
+  \left[ \psi\!\left(\tfrac{1}{2} + \tfrac{B_\phi}{B}\right) - \ln\!\left(\tfrac{B_\phi}{B}\right) \right]$
+</p>
 
 where
 
@@ -149,9 +149,9 @@ Fitting this model allows extraction of:
 
 At high magnetic fields, Landau quantization produces oscillations in resistivity:
 
-\[
-\rho_{xx} \propto \cos\!\left(\frac{2\pi F}{B} + \phi\right)
-\]
+<p align="center">
+  $\rho_{xx} \propto \cos\!\left(\frac{2\pi F}{B} + \phi\right)$
+</p>
 
 where
 
