@@ -103,17 +103,20 @@ In many materials both electrons and holes contribute to transport.
 
 The conductivity tensor is given by:
 
+
 <p align="center">
-  $\sigma_{xx} = e \sum_i \frac{n_i \mu_i}{1 + (\mu_i B)^2}$
+  $\sigma_{xx} = e \left( \frac{n_e \mu_e}{1 + (\mu_e B)^2} \;+\; \frac{n_h \mu_h}{1 + (\mu_h B)^2} \right)$
 </p>
 
 <p align="center">
-  $\sigma_{xy} = e \sum_i \frac{n_i \mu_i^2 B}{1 + (\mu_i B)^2}$
+  $\sigma_{xy} = e \left( \frac{n_e \mu_e^2 B}{1 + (\mu_e B)^2} \;-\; \frac{n_h \mu_h^2 B}{1 + (\mu_h B)^2} \right)$
 </p>
 
 The resistivity tensor is obtained by matrix inversion:
 
-\[ρ = σ⁻¹\]
+</p>
+ρ = σ⁻¹
+</p>
 
 Fitting these equations allows extraction of:
 
@@ -150,12 +153,19 @@ Fitting this model allows extraction of:
 At high magnetic fields, Landau quantization produces oscillations in resistivity:
 
 <p align="center">
-  $\rho_{xx} \propto \cos\!\left(\frac{2\pi F}{B} + \phi\right)$
+  $\Delta\rho_{xx} = A \, \exp\!\left(-\frac{\lambda}{B}\right) 
+  \cos\!\left(\frac{2\pi F}{B} \;+\; \phi\right)$
 </p>
 
 where
 
 F = oscillation frequency related to Fermi surface area.
+
+λ = damping related to scattering
+
+A = Amplitude of decaying
+
+ϕ = phase
 
 Fourier analysis of these oscillations provides:
 
